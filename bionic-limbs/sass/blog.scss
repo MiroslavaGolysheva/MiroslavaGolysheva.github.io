@@ -1,0 +1,61 @@
+
+
+
+.blog{
+
+    display: flex;
+    font-family: 'Ubuntu', sans-serif;
+    justify-content: center;
+    align-items: center;
+
+    .blog__gallery__column-1{
+        display: flex;
+        flex-direction: column;
+        width: 450px;
+        margin: 50px;
+
+        .blog__gallery__column-1__info-1{
+
+            margin-top: 100px;
+          
+
+            .blog__gallery__column-1__info-1_aside{
+                display: flex;
+                align-items: center;
+                hr{
+                    margin: 0;
+                    width: 90px;
+                    height: 1px;
+                    background-color: black;
+                }
+                p{
+                    margin-right: 20px;
+                    font-size: 130%;
+                }
+            }
+
+
+        }
+        
+    }
+}
+
+/* медиа */ 
+@media (max-width: 1050px){
+    .blog{
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 510px){
+    .blog img{
+        width: 300px;
+    }
+    .blog .blog__gallery__column-1 .blog__gallery__column-1__info-1 .blog__gallery__column-1__info-1_aside{
+        width: 250px;
+    }
+    .blog .blog__gallery__column-1{
+        width: 300px;
+    }
+
+}
