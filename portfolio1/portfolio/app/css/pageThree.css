@@ -1,0 +1,199 @@
+.section-three{
+    top: 100px;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgb(235, 233, 233);
+    position: absolute;
+    margin-left: 100%;
+    transition: all 0.5s;
+    overflow-y: scroll;
+    width: 100%;
+    
+}
+
+.portfolio__header{
+    width: 100%;
+    padding-left: 10%;
+    padding-right: 10%;
+
+}
+
+.portfolio__header h4{
+    font-size: 30px;
+    color: rgb(51, 50, 48);
+}
+
+.portfolio{
+    padding-left: 13%;
+    padding-right: 13%;
+
+}
+
+.portfolio__block{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+}
+
+.portfolio__text{
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    text-align: right;
+    max-width: 360px;
+    margin: 0 10px 0 10px;
+
+}
+.portfolio__text h4{
+    font-size: 20px;
+    color: rgb(194, 189, 189);
+}
+.portfolio__btn{
+    margin-top: 30px;
+    padding: 15px 20px 15px 20px;
+    background-color: rgb(36, 34, 34);
+    max-width: 280px;
+    border: 1px solid rgb(36, 34, 34);
+    transition: all .5s;
+    cursor: default;
+}
+
+.portfolio__btn p{
+    color: white;
+    transition: all .5s;
+    margin: 0;
+}
+
+.portfolio__btn:hover{
+    background-color: transparent;
+}
+
+.portfolio__btn:hover .portfolio__btn-view{
+    color: black;
+}
+
+.portfolio__img img{
+    width: 100%;
+    height: 100%;
+}
+
+@media (max-width: 670px){
+    .portfolio__block{
+        flex-direction: column;
+    }
+    .img-right{
+        order: 1;
+    }
+    .portfolio__text{
+        order: 2;
+    }
+}
+
+
+/*контакты */
+
+.section-four{
+    
+    top: 100px;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgb(235, 233, 233);
+    position: absolute;
+    margin-left: 100%;
+    transition: all 0.5s;
+    overflow-y: scroll;
+    width: 100%;
+ 
+}
+
+.contacts{
+    width: 100%;
+    padding-left: 10%;
+    display: flex;
+    padding-right: 10%;
+    padding-top: 60px;
+}
+
+
+.contacts__decorLine{
+    display: flex;
+    align-items: center;
+}
+.contacts__decorLine hr{
+    width: 290px;
+    margin: 0;
+    height: 1px;
+    background-color: #000000;
+    border: none;
+}
+.contacts__decorLine li{
+    font-size: 30px;
+    margin-left: 10px;
+}
+.contacts__social img{
+    margin-right: 20px;
+}
+.contacts__img{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+.contacts__img img{
+    max-width: 250px;
+    height: auto;
+    margin-top: 30px;
+    margin-right: 40px;
+}
+.contacts__block{
+    margin-right: 20px;
+}
+
+@media (max-width: 750px){
+    .contacts{
+        flex-direction: column;
+        padding-right: 0;
+        padding-left: 3%;
+        align-items: flex-start;
+    }
+    .contacts__block{
+        margin-right: 0;
+        margin-top: 30px;
+    }
+    .contacts__decorLine hr{
+        width: 150px;
+    }
+    .contacts__img img{
+        margin-right: 0;
+    }
+    
+}
+
+
+/*презентация*/
+
+.portfolio__hidden{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(37, 37, 37, 0.712);
+    z-index: 100;
+    display: none;
+    transition: all 0.8s;
+    overflow-y: scroll;
+    align-items: center;
+    flex-direction: column;
+}
+
+.close-hidden{
+    width: 80%;
+}
+.close-hidden img{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    position: fixed;
+}
