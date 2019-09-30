@@ -76,10 +76,16 @@ body,
 html{
     margin: 0;
     font-family: 'Fira Sans', sans-serif;
-    overflow: hidden;
-    height: 100vh;
-    -webkit-overflow-scrolling:touch;
+    height: 100%;
     width: 100%;
+
+}
+
+.wrapper{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
 }
 
 #active-menu{
