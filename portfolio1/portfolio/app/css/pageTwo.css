@@ -140,7 +140,7 @@
     background-position: center;
     background-size: cover;
     min-height: 500px;
-    padding: 50px 80px 50px 80px;
+    padding: 30px;
     margin-top: 30px;
     margin-bottom: 80px;
     display: flex;
@@ -175,10 +175,10 @@
     border: none;
     
 }
-
 .experience__items-menu{
-    display: flex;
+    max-width: 350px;
 }
+
 .experience__items-menu li{
     list-style: inherit;
     line-height: 40px;
@@ -350,9 +350,7 @@
     .experience__items-top{
         flex-direction: column;
     }
-    .experience__items-menu{
-        flex-direction: column;
-    }
+
     .aboutUs__description{
         flex-direction: column;
     }
