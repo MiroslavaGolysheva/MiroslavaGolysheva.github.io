@@ -156,9 +156,9 @@ html{
 .section-one{
     width: 100vw;
     min-height: 100%;
-    background-image: url(../img/foto/img1.jpg);
+    background-image: url(../img/foto/img2.JPG);
     background-size: cover;
-    background-position: 70% 65%;
+    background-position: center;
     position: relative;
 
  
@@ -236,7 +236,7 @@ html{
     flex-direction: column;
     justify-content: center;
     padding-left: 40px;
-    color: rgb(22, 22, 22);
+    color: rgb(240, 240, 240);
 }
 
 
@@ -400,7 +400,7 @@ html{
 
 
 
-@media (max-width: 370px){
+@media (max-width: 570px){
     .content__blockTwo{
         flex-direction: column;
     }
@@ -416,9 +416,10 @@ html{
     }
     .content__text h4{
         font-size: 23px;
+        margin-bottom: 10px;
     }
     .content__text p{
-        display: none;
+        font-size: 11px;
     }
 
     .content__Arr{

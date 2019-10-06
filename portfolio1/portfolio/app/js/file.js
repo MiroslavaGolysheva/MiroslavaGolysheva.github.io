@@ -45,7 +45,13 @@ window.addEventListener("load", function(){
 
     });
 });
+    logo.onclick = function(){
 
+       
+        document.getElementById('section-three').style.marginLeft = '100%';
+        document.getElementById('section-four').style.marginLeft = '100%';
+        document.getElementById('section-two').style.marginLeft = '100%';
+    }
     two.onclick = function(){    
         setTimeout(function() { 
              document.getElementById('section-three').style.marginLeft = '100%';
@@ -292,3 +298,5 @@ function loadData() {
       preloaderEl.classList.add('hidden');
       preloaderEl.classList.remove('visible');
     });
+
+
